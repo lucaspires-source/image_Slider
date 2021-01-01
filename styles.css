@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carrousel-container{
+    width: 60%;
+    margin: auto;
+    border: 20px solid black;
+}
+
+.carrousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.carrousel-slide img {
+    width: 500px; 
+    height: auto;
+}
