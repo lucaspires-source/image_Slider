@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
 .carrousel-container{
-    width: 60%;
+    width: 900px;
     margin: auto;
-    border: 20px solid black;
+    border: 10px solid black;
     overflow: hidden;
+    position: relative;
 }
 
 .carrousel-slide{
@@ -19,5 +25,28 @@
 
 .carrousel-slide img {
     width: 900px; 
-    height: auto;
+    height: 500px;
+}
+
+
+#previousBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 50px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 50px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
 }

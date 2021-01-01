@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css"/>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Image carrousel Slider</title>
 </head>
 <body>
     <h1>Image Carrousel</h1>
     <div class="carrousel-container">
+        <i class="fas fa-angle-left"  id="previousBtn"></i>
+        <i class="fas fa-angle-right" id="nextBtn"></i>
         <div class="carrousel-slide">
             <img  src="./assets//img/10.jpg" alt="carrousel" id="lastClone"/>
             <img src="./assets//img/1.jpg" alt="carrousel"/>
@@ -25,8 +27,6 @@
             <img src="./assets//img/1.jpg" alt="carrousel" id="firstClone" />
         </div>
     </div>
-    <button id="previousBtn">Previous</button>
-    <button id="nextBtn">Next</button>
 </body>
 <script src="./script.js"></script>
 </html>
