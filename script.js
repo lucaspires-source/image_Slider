@@ -18,12 +18,14 @@ const previousBtn = document.querySelector('#previousBtn')
 const nextBtn = document.querySelector('#nextBtn')
 
 nextBtn.addEventListener('click', () =>{
+    if (counter >= 11 ){return}
     counter++;
     carrouselTransform()
     carrouselAnimation()
 })
 
 previousBtn.addEventListener('click', () =>{
+    if (counter <= 0 ){return}
     counter--;
     carrouselTransform()
     carrouselAnimation()
